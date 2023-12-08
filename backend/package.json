@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "heroku-postbuild": "npm install --only=dev && npm install && npm run build && ls -al build",
     "backend": "nodemon server.js"
   },
   "keywords": [],
