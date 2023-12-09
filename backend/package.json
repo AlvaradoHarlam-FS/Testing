@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+
+    "node": "21.2.0",
+
+    "npm": "10.2.4"
+
+  },
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "npm install --only=dev && npm install && npm run build && ls -al build",
     "backend": "nodemon server.js"
   },
   "keywords": [],
