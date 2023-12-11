@@ -4,11 +4,8 @@
   "description": "",
   "main": "server.js",
   "engines": {
-
     "node": "21.2.0",
-
     "npm": "10.2.4"
-
   },
   "scripts": {
     "start": "node server.js",
