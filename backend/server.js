@@ -1,4 +1,5 @@
 require("dotenv").config();
+console.log("Current Working Directory:", process.cwd()); 
 const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
