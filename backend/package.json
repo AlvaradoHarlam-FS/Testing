@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "heroku-postbuild": "cd frontend && npm install && npm run build",
+    "heroku-postbuild": "cd Testing/frontend && npm install && npm run build",
     "backend": "nodemon server.js"
   },
   "keywords": [],
